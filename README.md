@@ -6,7 +6,7 @@ Modern cloud adoption strategies use an Azure landing zone (ALZ) as the foundati
 
 ![Key benefits of the standardized landing zone](graphics/Standardized%20Azure%20Landing%20Zone%20-%20Figure%201%20-%20Key%20Benefits.png)
 
-*Figure 1: Key benefits of the standardized landing zone*
+Figure 1: Key benefits of the standardized landing zone
 
 ## Standardized vs. Customized Landing Zones
 
@@ -16,7 +16,7 @@ In a standardized landing zone based on the AdventureWorks template, Microsoft's
 
 ![Azure landing zone architecture of the AdventureWorks template](graphics/Standardized%20Azure%20Landing%20Zone%20-%20Figure%202%20-%20Landing%20Zone%20Architecture.png)
 
-*Figure 2: Azure landing zone architecture of the AdventureWorks template*
+Figure 2: Azure landing zone architecture of the AdventureWorks template
 
 Further reading: [What is an Azure landing zone? (Cloud Adoption Framework)](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/)
 
@@ -179,9 +179,9 @@ In summary, the standardized landing zone is not a one-time deliverable but an e
 
 Designing the organizational structure of the cloud environment is a complex task. It involves deciding how to divide Azure subscriptions, how to arrange management groups and how to assign responsibilities to platform and workload teams. The AdventureWorks template provides a proven model for this, which is a notable benefit over designing it in-house.
 
-[Subscription-based delegation between platform, network and workload teams](Graphics/Standardized%20Azure%20Landing%20Zone%20-%20Figure%203%20-%20Subscription-Based%20Delegations.png)
+[Subscription-based delegation between platform, network and workload teams](graphics/Standardized%20Azure%20Landing%20Zone%20-%20Figure%203%20-%20Subscription-Based%20Delegations.png)
 
-*Figure 3: Subscription-based delegation between platform, network and workload teams*
+Figure 3: Subscription-based delegation between platform, network and workload teams
 
 **Key aspects of the organizational model in the standardized landing zone:**
 
@@ -257,9 +257,9 @@ Within the AdventureWorks template, Defender for Cloud is part of the platform f
 
 Workflow automation in Defender for Cloud connects alerts and recommendations with automated responses. A Logic App can, for example, create a ServiceNow ticket for the subscription owner when a critical recommendation appears. With Microsoft Sentinel in the Microsoft Defender portal, incidents from Defender for Cloud and other sources are correlated in a single incident queue and can trigger automated response and attack disruption. Because all subscriptions are onboarded the same way, a single automation covers the whole estate.
 
-[Integrated compliance with Microsoft Defender for Cloud in the landing zone](Graphics/Standardized%20Azure%20Landing%20Zone%20-%20Figure%204%20-%20Integrated%20Compliance%20with%20Defender%20for%20Cloud.png)
+[Integrated compliance with Microsoft Defender for Cloud in the landing zone](graphics/Standardized%20Azure%20Landing%20Zone%20-%20Figure%204%20-%20Integrated%20Compliance%20with%20Defender%20for%20Cloud.png)
 
-*Figure 4: Integrated compliance with Microsoft Defender for Cloud in the landing zone*
+Figure 4: Integrated compliance with Microsoft Defender for Cloud in the landing zone
 
 What advantages does this offer over a customized solution? Developing your own landing zone would require you to:
 
