@@ -14,7 +14,7 @@ An Azure landing zone is a proven and flexible architecture for governing, secur
 
 In a standardized landing zone based on the AdventureWorks template, Microsoft's reference architecture is implemented as provided or with minor adjustments through the accelerator's configuration files and library overrides. The design follows the five Azure landing zone design principles: subscription democratization, policy-driven governance, single control and management plane, application-centric service model, and alignment with Azure-native design and roadmaps. In practice, this enables scalable deployment across many subscriptions, extensive use of Azure Policy for governance, centralized management, adaptability to diverse workloads including AI, and consistent alignment with Azure's evolving feature set.
 
-![Azure landing zone architecture of the AdventureWorks template](Graphics/Standardized%20Azure%20Landing%20Zone%20-%20Figure%202%20-%20Landing%20Zone%20Architecture.png)
+![Azure landing zone architecture of the AdventureWorks template](graphics/Standardized%20Azure%20Landing%20Zone%20-%20Figure%202%20-%20Landing%20Zone%20Architecture.png)
 
 *Figure 2: Azure landing zone architecture of the AdventureWorks template*
 
