@@ -4,7 +4,7 @@
 
 Modern cloud adoption strategies use an Azure landing zone (ALZ) as the foundation for scalable and secure deployments. In the current Cloud Adoption Framework guidance, an Azure landing zone consists of a platform landing zone, which provides governance, security and shared services centrally, and workload landing zones, in which workload teams deploy and operate their resources within the platform's guardrails. The AdventureWorks template described in this document is the hub-and-spoke variant of the Microsoft platform landing zone. Microsoft originally published it as the AdventureWorks reference implementation; today the same architecture is delivered through the Azure landing zone accelerators (portal accelerator, and Bicep or Terraform based on Azure Verified Modules) together with the Azure landing zone library. The following sections highlight the principal advantages of this standardized template compared to a fully customized landing zone approach.
 
-\![Key benefits of the standardized landing zone]([graphics/Standardized Azure Landing Zone - Figure 1 - Key Benefits.png))
+\![Key benefits of the standardized landing zone]([graphics/Standardized%20Azure%20Landing%20Zone%20-%20Figure%201%20-%20Key%20Benefits.png))
 
 *Figure 1: Key benefits of the standardized landing zone*
 
